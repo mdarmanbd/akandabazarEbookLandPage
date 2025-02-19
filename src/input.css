@@ -1,3 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+    --font-primary: "Poppins", serif;
+
+    --color-midnight: #2e2b2b;
+    --color-tahiti: #3ab7bf;
+    --color-bermuda: #78dcca;
+  }
